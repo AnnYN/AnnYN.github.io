@@ -1,0 +1,33 @@
+mv filename1 filename2   # 给文件改名字
+
+<Tab> #命令补齐，可以多按几次
+
+#CTRL组合
+
+ctrl+a  #光标跳到行首
+Ctrl+b  #光标左移一个字母
+ctrl+c  #中断进程，开启新的一行
+ctrl+d  #删除提示符后一个字符，或者exit或者layout
+ctrl+e  #光标移到行尾
+ctrl+f  #光标后移一个字符
+ctrl+h  #删除前一个字符
+ctrl+l  #清除屏幕
+ctrl+k  #清楚光标后至行尾的内容
+ctrl+u  #清楚光标至行首的内容
+ctrl+p  #重复上一次命令
+ctrl+w  #删除光标前一个单词
+ctrl+y  #将删除的字符粘贴出来
+
+#esc组合
+esc+f #向右跳一个词语
+esc+b #向左跳一个词语
+esc+d #删除光标后的一个词
+
+ctrl+r #搜索历史命令
+
+ctrl+n #搜索下一个命令
+ctrl+p #搜索前一个命令
+
+
+df -h  #查看主机内存
+git reset --hard #恢复代码
